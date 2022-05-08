@@ -5,6 +5,7 @@ import cors from 'cors'
 import { serverRoutes } from './routes/index.js'
 import logger from './utils/logger/winston.js'
 
+
 const PORT = config.port
 
 const app = express()
